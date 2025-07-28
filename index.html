@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Gold Power</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Black Gold Power Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#about" data-en="About" data-es="Nosotros">About</a></li>
+        <li><a href="#products" data-en="Products" data-es="Productos">Products</a></li>
+        <li><a href="#team" data-en="Team" data-es="Equipo">Team</a></li>
+        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+      </ul>
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1 data-en="About Us" data-es="Sobre Nosotros">About Us</h1>
+      <p data-en="Black Gold Power is formed by a team with over 30 years of experience in the energy market."
+         data-es="Black Gold Power está formada por un equipo con más de 30 años de experiencia en el mercado energético.">
+         Black Gold Power is formed by a team with over 30 years of experience in the energy market.
+      </p>
+    </section>
+
+    <section id="products">
+      <h2 data-en="Our Products" data-es="Nuestros Productos">Our Products</h2>
+      <ul>
+        <li>Jet Fuel A-1</li>
+        <li>Diesel EN 590, D2, D6</li>
+        <li>Gasoline 95 Octane</li>
+        <li>Natural Gas, Propane, Butane</li>
+        <li>JP-54, Methanol, Pale Oil 60, SN 100</li>
+      </ul>
+    </section>
+
+    <section id="team">
+      <h2 data-en="Our Team" data-es="Nuestro Equipo">Our Team</h2>
+      <p data-en="A global team of energy professionals." data-es="Un equipo global de profesionales en energía.">
+        A global team of energy professionals.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+      <form action="https://formspree.io/f/mwkgyrrz" method="POST">
+        <label data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+        <input type="text" name="name" required />
+        <label data-en="Your Email" data-es="Tu Correo">Your Email</label>
+        <input type="email" name="email" required />
+        <label data-en="Message" data-es="Mensaje">Message</label>
+        <textarea name="message" required></textarea>
+        <button type="submit" data-en="Send" data-es="Enviar">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Black Gold Power. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
